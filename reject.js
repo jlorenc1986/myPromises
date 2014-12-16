@@ -1,6 +1,5 @@
-Q = require('q');
-
-var def = Q.defer();
+var Q 	= require('q')
+	def = Q.defer();
 
 // attach the  righ handlers defer(fulfillHandler,rejectHandler)
 def.promise.then(console.log,function(error){
